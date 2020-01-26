@@ -1,0 +1,31 @@
+$container-size: 768px;
+$bg: #000;
+$text: #fff;
+$primary-yellow: #f9f929;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg;
+  color: $text;
+  font-family: 'Helvetica', sans-serif;
+  margin: 10;
+  padding: 10;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $container-size;
+  text-align: left;
+
+  h1 {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  span {
+    color: $primary-yellow;
+  }
+}
