@@ -1,4 +1,6 @@
-import { now } from './lib/now';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const day = document.querySelector('.today');
-day.innerHTML = now();
+import App from './components/App';
+
+ReactDOM.render(<App/>, document.getElementById('app'));
