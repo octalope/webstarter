@@ -1,0 +1,11 @@
+{
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx}"
+  ],
+  "testMatch": [
+    "<rootDir>/src/**/__tests__/**/*.js?(x)",
+    "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+  ],
+  "testEnvironment": "node",
+  "testURL": "http://localhost"
+}

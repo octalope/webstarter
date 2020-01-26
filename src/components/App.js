@@ -1,6 +1,6 @@
 import React from 'react';
 
-import now from '../lib/now';
+import now from '../lib/now/now';
 
 const App = () => (
   <div className="App">

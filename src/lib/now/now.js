@@ -3,4 +3,4 @@ const now = () => {
   return today.toISOString();
 };
 
-export default now;
+module.exports = now;
